@@ -1,0 +1,101 @@
+.sidebar-layout {
+    margin: 0;
+    padding: 0;
+  }
+.sidebar-parent-div {
+    position: relative;
+    height: 100vmax;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(5, 35, 70, 0.842), rgba(2, 63, 78, 0.5)), url("https://user-images.githubusercontent.com/25878302/144499035-2911184c-76d3-4611-86e7-bc4e8ff84ff5.jpg");
+}
+
+.sidenavbar-list {
+    margin: 0;
+    padding: 0;
+}
+.sidenavbar-list ul {
+    margin: 0;
+    padding: 0;
+}
+.sidenavbar-list ul li{
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+    /*color: white;
+    font-weight: bold;
+    margin: 5px 0 10px 0;
+    */
+    width: 100%;
+    padding: 10px 0 10px 10px;
+}
+
+.sidenavbar-list ul li:hover {
+    text-align: left;
+    cursor: pointer;
+    background-color: #06567abd;
+  }
+
+.sidenavbar-list ul li a{
+    margin: 0;
+    width: 100%;
+    text-decoration: none;
+    color:lightgray;
+    cursor: pointer;
+}
+
+.sidenavbar-list ul li i{
+    padding: 0 10px 0 0;
+}
+
+.side-navbar {
+/*    background-color: black; */
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.side-navbar h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 20px 0 20px;
+}
+/*
+.sidebar-parent-div footer {
+    position:fixed;
+    display: block;
+    bottom: 0px;
+    padding: 20px;
+    background-color: rgb(4, 44, 49);
+    width: 26.5%;
+}
+*/
+
+.sidebar-parent-div footer svg {
+    color: white;
+    text-decoration: none;
+    fill: white;
+    /*margin: 0 10px 10px 10px;*/
+}
+
+.sidebar-footer-profile {
+    
+    display: block;
+    
+    bottom: 0%;
+    left: 0;
+    color: white;
+    list-style: none;
+    
+}
+
+.sidebar-parent-div footer li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.sidebar-main-div {
+        margin: 0;
+        z-index: 2;
+}
+

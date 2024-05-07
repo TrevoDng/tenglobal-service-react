@@ -1,0 +1,28 @@
+.widget {
+    display: inline-block;
+    justify-content: space-between;
+    flex: 2;
+    padding: 10px;
+    margin: 10px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.left, .right {
+    
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(160, 160, 160);
+}
+
+.counter {
+    font-size: 28px;
+    font-weight: 300;
+}

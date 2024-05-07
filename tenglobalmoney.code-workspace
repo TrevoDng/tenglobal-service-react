@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "tenglobalmoney",
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.analysis.inlayHints.callArgumentNames": false
+	}
+}

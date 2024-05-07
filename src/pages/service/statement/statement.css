@@ -1,0 +1,33 @@
+.statement {
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    margin-top: 50px;
+    align-items: left;
+    justify-content: left;
+}
+
+.statement-data {
+    margin-left: 10px;
+}
+.statement-data button{
+  margin-left: 20px;
+}
+.statement-heading {
+     margin: 0px;
+     padding: 20px 0 0 0;
+     text-align: center;
+     font-size: 22px;
+  }
+.statement-heading span {
+    margin: 0px;
+    color: white;
+    background-color: #075174;
+    padding: 15px;
+    border: none;
+    text-decoration: underline;
+    border-radius: 40px 0 40px 0;
+  }
+
+  .data-table th {
+    /*border-left: 1px solid black;*/
+  }

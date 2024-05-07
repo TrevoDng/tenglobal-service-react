@@ -1,0 +1,213 @@
+.item1{
+  grid-area: header;
+}
+.item2{
+  grid-area: menu;
+}
+.item3{
+  grid-area: main;
+}
+.item4{
+  grid-area: right;
+  background-color: #17aacf91;
+  text-align: center;
+  color: whitesmoke;
+}
+.item5{
+  grid-area: footer;
+}
+
+.landing-container {
+  display: grid;
+  grid-template-areas: 'header header header header header header'
+  'menu main main main main right'
+  'footer footer footer footer footer footer';
+  gap: 0px;
+  background-color: #3b616b91;
+}
+
+.side-navbar h1{
+  font-size: 12px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+  }
+  /*
+  #main div {
+    width: 100px;
+    height: 70px;
+  }
+  
+  #first-main {
+      border: 1px solid #c3c3c3;
+      text-align: center;
+      margin: 30px 5px; 
+  }
+  
+  #first-btn {
+      background-color: gold;
+      border: none;
+  }
+  
+  
+  #first-btn button {
+    background-color: rgba(255, 217, 0, 0);
+    border: none;
+  }
+  
+  #first-btn:hover {
+      background-color: lightblue;
+  }
+  
+  #second-btn {
+      background-color: #17cf97;
+      border: none;
+  }
+  
+  #second-btn button {
+    background-color: rgba(255, 217, 0, 0);
+    border: none;
+  }
+  
+  #second-btn:hover {
+      background-color: lightblue;
+  }
+  
+  #third-btn {
+      background-color: orange;
+      border: none;
+  }
+  
+  #third-btn button {
+    background-color: rgba(255, 217, 0, 0);
+    border: none;
+  }
+  
+  #third-btn:hover {
+      background-color: lightblue;
+  }
+  .about-tenglobal {
+    padding: 10px 50px;
+  }
+  
+  .home-page-container {
+    display: grid;
+	place-items: center;
+    margin: 0;
+    background-image: radial-gradient(farthest-corner at 40px 40px, rgba(5, 95, 122, 0.849) 0%, rgb(72, 33, 161) 100%);
+  }
+  */
+  
+  .main-container-div {
+    display: grid;
+	place-items: center;
+  margin-top: 0%;
+  background-color: black;
+    width: auto;
+    
+  }
+/*
+.contact-data {
+  display: flex;
+      
+  margin-left: 10px;
+  margin-top: 50px ;
+}
+
+.widget .statement-heading {
+  display: none;
+}
+*/
+
+.service-back-button {
+  display: none;
+}
+
+@media screen and (max-width:769px) {
+
+  .service-back-button {
+    display: block;
+  }
+  
+  .sidebar-main-div {
+    display: none;
+  }
+
+  .main-container-div {
+    display:block;
+	place-items: center;
+  margin-top: 0px;
+  background-color: rgb(5, 161, 233);
+    width: auto;
+    margin: 0;
+  }
+
+  .sidebar-main {
+    margin: 0px;
+  }
+ .home-design h1 {
+  margin-top: 30px;
+  text-align: center;
+}  
+.item4{
+  display: none;
+}
+}
+/*
+.show-element{
+  margin: 100px auto;
+}
+
+.sidebar-main {
+  margin: 0;
+  padding-top: -400px;
+}
+.home-design {
+  margin-top: -300px;
+  text-align: center;
+}
+*/
+.home-design h1 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.home-design i {
+  color: #17cf97;
+  font-size: 50px;
+  list-style-type: style none;
+}
+
+.home-design li {
+  list-style: none;
+  text-align: center;
+  position: relative;
+  width: fit-content;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.home-design #earth-icon {
+  font-size: 100px;
+  background-color: none;
+}
+
+.home-design #dollar-hand {
+  position: absolute;
+  border-radius: 5pc;
+  background-color: #17aacf91;
+  left: -20px;
+}
+
+/*
+#main {
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    justify-content: center;
+  }
+*/

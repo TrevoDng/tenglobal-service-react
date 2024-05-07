@@ -1,0 +1,13 @@
+.send-email-container {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.send-email-container input{
+  border: 1px solid gray;
+   border-radius: 5px;
+   text-align: center;
+}

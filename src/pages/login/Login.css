@@ -1,0 +1,103 @@
+.login{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 500px;
+  border: none;
+  margin: 0 0 0 50px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;  
+  box-shadow: rgba(67, 73, 74, 0.475) 0px 7px 29px 0px;
+  /*box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;*/
+}
+
+.login p {
+  margin: 40px 0 0px 0;
+}
+  .login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+    .login-input{
+      width: 200px;
+      height: 30px;
+      margin: 10px;
+      border: 1px solid lightblue;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 0.8rem;
+      
+    }
+
+    .login-button{
+      width: 130px;
+      height: 40px;
+      border: none;
+      background-color: rgba(240, 46, 169, 0.887);
+      color: white;
+      font-weight: bold;
+      margin: 20px;
+      cursor: pointer;
+      border: none;
+  border-radius: 20px;
+  box-shadow: rgba(67, 73, 74, 0.475) 0px 7px 29px 0px;
+    }
+
+    .login-span{
+      font-size: 12px;
+      color: red;
+      margin-top: 10px;
+    }
+
+    .login-container {
+      margin: 0;
+      height: 100vh;
+      width: 100%;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(179, 217, 241);
+      
+    }
+
+    .login-info {
+      height: 500px;
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: lightseagreen;
+      margin: 0 50px 0 0;
+      /*background-color: cornflowerblue;*/
+      color: white;
+      border: none;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      box-shadow: rgba(67, 73, 74, 0.178) 0px 7px 0px 0px;
+    }
+
+    .login-design {
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    }
+
+    .register-heading {
+      background-color: rgb(179, 217, 241);
+       margin: 0px;
+       padding: 50px 0 0 0;
+       text-align: center;
+    }
+
+    .register-heading span {
+      color: white;
+      background-color: lightseagreen;
+      padding: 20px;
+      border: none;
+      border-radius: 40px 0 40px 0;
+    }
